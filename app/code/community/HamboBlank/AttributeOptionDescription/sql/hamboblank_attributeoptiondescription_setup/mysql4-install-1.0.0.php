@@ -9,7 +9,7 @@ $installer->startSetup();
 
 $installer->run("
 ALTER TABLE `{$tableOption}`
-    ADD `description` VARCHAR(256) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL;
+    ADD `description` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL;
 ");
 
 $installer->endSetup();
