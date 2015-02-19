@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <modules>
+        <HamboBlank_AttributeOptionDescription>
+            <version>1.0.0</version>
+        </HamboBlank_AttributeOptionDescription>
+    </modules>
+	<global>
+		<resources>
+			<hamboblank_attributeoptiondescription_setup>
+				<setup>
+					<module>HamboBlank_AttributeOptionDescription</module>
+				</setup>
+			</hamboblank_attributeoptiondescription_setup>
+		</resources>
+        <models>
+            <hamboblank_attributeoptiondescription>
+                <class>HamboBlank_AttributeOptionDescription_Model</class>
+            </hamboblank_attributeoptiondescription>
+            <catalog_resource_eav_mysql4>
+                <rewrite>
+                    <attribute>HamboBlank_AttributeOptionDescription_Model_Catalog_Resource_Eav_Mysql4_Attribute</attribute>
+                </rewrite>
+            </catalog_resource_eav_mysql4>
+        </models>
+		<blocks>
+            <adminhtml>
+                <rewrite>
+                    <catalog_product_attribute_edit_tab_options>HamboBlank_AttributeOptionDescription_Block_Catalog_Product_Attribute_Edit_Tab_Options</catalog_product_attribute_edit_tab_options>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+	</global>
+</config>
