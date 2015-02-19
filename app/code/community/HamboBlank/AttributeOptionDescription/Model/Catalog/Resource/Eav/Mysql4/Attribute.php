@@ -1,12 +1,5 @@
 <?php
 
-/**
-*
-* _saveOption function adapted from aligent@github
-* original file can be found here: https://github.com/aligent/magento-attribute-option-image/blob/master/app/code/community/JR/AttributeOptionImage/Model/Catalog/Resource/Eav/Mysql4/Attribute.php
-*
-**/
-
 class HamboBlank_AttributeOptionDescription_Model_Catalog_Resource_Eav_Mysql4_Attribute extends Mage_Catalog_Model_Resource_Eav_Mysql4_Attribute
 {
     protected function _saveOption(Mage_Core_Model_Abstract $object)
